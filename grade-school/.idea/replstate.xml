@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1469403589655">{:repl-history {:ide [], :local [&quot;(hello)&quot; &quot;(reduce (fn [new-map [key val]]\n          (assoc new-map key (inc val)))&quot; &quot;(reduce (fn [new-map [key val]]\n          (assoc new-map key (inc val))){}\n        {:max 30 :min 10})&quot; &quot;(put db {:a \&quot;hi\&quot;})&quot; &quot;(def db [])&quot; &quot;(def db {})&quot; &quot;(grade-school/add db \&quot;Aimee\&quot; 2)&quot; &quot;(print db)&quot;], :remote []}}</component>
+</project>

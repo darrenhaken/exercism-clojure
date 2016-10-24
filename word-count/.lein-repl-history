@@ -1,0 +1,15 @@
+(defn- normalise [sentance]
+   (str/upper-case sentance))
+(defn normalise [sentance]
+   (str/upper-case sentance))
+(ns word-count
+   (:gen-class)
+   (:require [clojure.string :as str]))
+ (defn normalise [sentance]
+   (str/upper-case sentance))
+(defn word-count [sentance]
+   (normalise sentance))
+(word-count "Hello World")
+(defn word-count [sentance]
+   (apply normalised (normalise sentance)))
+exit

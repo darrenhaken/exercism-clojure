@@ -1,0 +1,5 @@
+(defn- strand-items [strand1 strand2]
+  (filter identity (map not= strand1 strand2)))
+(strand-items "ACCAGGG" "ACTATGG")
+(map not= "ACCAGGG" "ACTATGG")
+exit

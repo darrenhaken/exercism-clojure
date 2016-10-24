@@ -1,0 +1,53 @@
+(sort "Hra"
+)
+(str (sort "Hra"))
+(apply str (sort "Hra")))
+(apply str (sort "hra")))
+(apply str (sort "hra"))
+(ns anagram)
+ (defn ordered-str [str]
+   (apply str (sort str)))
+ (defn anagrams-for [anagram candidates]
+   ordered-str str)
+(anagram-for "har")
+(anagrams-for "har")
+(anagrams-for "har" [])
+exit
+(ordered-str "hr")
+(defn ordered-str [str]
+  (apply str (sort str)))
+(ordered-str "ih")
+(ns anagram
+  (:gen-class)
+  (:require [clojure.string :as str]))
+(defn ordered-str [str]
+  (apply str (sort str)))
+(ordered-str "ih")
+exit
+(defn- same-letters? [word other-word]
+  (= (sort (str/lower-case word))
+     (sort (str/lower-case other-word))))
+(defn anagram? [word potential-anagram]
+  (and (not= word potential-anagram)
+       (same-letters? word potential-anagram)))(ns anagram
+  (:gen-class)
+  (:require [clojure.string :as str]))
+(defn- same-letters? [word other-word]
+  (= (sort (str/lower-case word))
+     (sort (str/lower-case other-word))))
+(defn anagram? [word potential-anagram]
+  (and (not= word potential-anagram)
+exit
+(ns anagram
+  (:gen-class)
+  (:require [clojure.string :as str]))
+(defn- same-letters? [word other-word]
+  (= (sort (str/lower-case word))
+     (sort (str/lower-case other-word))))
+(defn anagram? [word potential-anagram]
+  (and (not= word potential-anagram)
+       (same-letters? word potential-anagram)))
+(anagram? "HELLO" "hello")
+(not= "HELLO" "hello")
+exi
+exit

@@ -1,0 +1,8 @@
+(+ 1 2 3)
+(defn hello)
+(defn hello
+(println "hello")
+hello
+(hello)
+)
+exit

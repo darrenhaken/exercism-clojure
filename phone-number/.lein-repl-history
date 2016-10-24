@@ -1,0 +1,9 @@
+(use phone-number)
+(use ns:phone-number)
+(use "phone-number")
+exit
+(def number "19876543210")
+exit
+(test-number)
+(test)
+exit

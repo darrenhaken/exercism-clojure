@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1473881335540">{:repl-history {:ide [], :local [&quot;(binary/to-decimal \&quot;1001\&quot;)&quot; &quot;(bit-shift 1 0)&quot; &quot;(println (bit-shift 1 0))&quot; &quot;(println (bit-shift-left 1 0))&quot; &quot;(println (bit-shift-left 1 1))&quot; &quot;(println (bit-shift-left 1 3))&quot; &quot;(binary/to-decimal \&quot;10101\&quot;)&quot; &quot;(binary/to-decimal \&quot;101001\&quot;)&quot; &quot;(map bit-&gt;int binary)&quot; &quot;(map binary/bit-&gt;int binary)&quot; &quot;(binary/bit-&gt;int \&quot;1\&quot;)&quot; &quot;(map binary/bit-&gt;int \&quot;10000\&quot;)&quot; &quot;(reverse (map binary/bit-&gt;int \&quot;10000\&quot;))&quot; &quot;(map-indexed binary/binary-&gt;decimal (0 0 0 0 1))&quot; &quot;(map-indexed binary/binary-&gt;decimal [0 0 0 0 1])&quot;], :remote []}}</component>
+</project>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1476822455651">{:repl-history {:ide [], :local [&quot;(trinary-char-&gt;int 2)&quot; &quot;(trinary-char-&gt;int \&quot;2\&quot;)&quot; &quot;(trinary-char-&gt;int \\2)&quot; &quot;(map trinary-char-&gt;int \&quot;1210\&quot;)&quot; &quot;(reverse (map trinary-char-&gt;int \&quot;1210\&quot;))&quot; &quot;(trinary-&gt;decimal 5 1)&quot; &quot;(map trinary-char-&gt;int \&quot;1122000120\&quot;)&quot; &quot;(some #(= -1 %) (1 1 2 2 0 0 0 1 2 0))&quot; &quot;(some #(= -1 %) [1 1 2 2 0 0 0 1 2 0])&quot; &quot;(re-matches #\&quot;[0-2]+\&quot; \&quot;1122000120\&quot;)&quot; &quot;(re-matches #\&quot;[0-2]+\&quot; \&quot;1122000120a\&quot;)&quot; &quot;(to-decimal \&quot;1122000120\&quot;)&quot;], :remote []}}</component>
+</project>

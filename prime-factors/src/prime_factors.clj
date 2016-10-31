@@ -1,17 +1,13 @@
 (ns prime-factors)
 
-;(defn- process-candidate [number candidate]
-;  (let primes [] (recur (/ number candidate) candidate (conj primes candidate))
-;  )
-
 (defn- no-remainder? [number candidate]
   (zero? (rem number candidate)))
 
 (defn of
   ([number]
    (of number 2 []))
-  ([number candidate primes]
+  ([number primeCandidate accumulator]
    (cond
-     (<= number 1) primes
-     (no-remainder? number candidate) (recur (/ number candidate) candidate (conj primes candidate))
-     :else (recur number (inc candidate) primes))))
+     (<= number 1) accumulator
+     (no-remainder? number primeCandidate) (recur (/ number primeCandidate) primeCandidate (conj accumulator primeCandidate))
+     :else (recur number (inc primeCandidate) accumulator))))

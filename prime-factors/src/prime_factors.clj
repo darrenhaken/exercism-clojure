@@ -6,8 +6,8 @@
 (defn of
   ([number]
    (of number 2 []))
-  ([number primeCandidate accumulator]
+  ([number divisor accumulator]
    (cond
      (<= number 1) accumulator
-     (no-remainder? number primeCandidate) (recur (/ number primeCandidate) primeCandidate (conj accumulator primeCandidate))
-     :else (recur number (inc primeCandidate) accumulator))))
+     (no-remainder? number divisor) (recur (/ number divisor) divisor (conj accumulator divisor))
+     :else (recur number (inc divisor) accumulator))))
